@@ -12,3 +12,6 @@ def test_validador_cep_votorantim_valido():
 
 def test_validador_cep_apenas_numeros():
     assert validar_cep("18110000", "Votorantim") == True
+
+def test_validador_cep_itu_valido():
+    assert validar_cep("13301-201", "Itu") == True

@@ -36,7 +36,7 @@ jobs:
           username: ${{ secrets.email }}
           password: ${{ secrets.senhaemail }}
           subject: "Vitor Samuel Goncalves Teixeira - Termo de Aceite Tecnico - Express CEP"
-          to: ${{ vars.DESTINATARIO_EMAIL }}
+          to: ${{ vars.destinatario}}
           from: "Automacao GitHub Actions"
           body: "Prezado, segue em anexo o relatório de testes para validação e aceite da release."
           attachments: termo_de_aceite.html
